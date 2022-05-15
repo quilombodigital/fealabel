@@ -7,3 +7,5 @@ You can download the current version here: [FeaLabel Version 1.0.3](https://gith
 
 Requirements:
 DotNet 4.7.2 installed ([get it here](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net472-web-installer))
+
+![image](https://user-images.githubusercontent.com/874378/168492375-798f1148-b1f9-4e61-a583-3ac36fe47d26.png)
