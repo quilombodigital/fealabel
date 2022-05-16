@@ -1,7 +1,7 @@
 # fealabel
 My daughter needed a label generator for the USP FEA Economics course
 
-You can download the current version here: [FeaLabel Version 1.0.3](https://github.com/quilombodigital/fealabel/releases/download/v1.0.3/fealabel-1.0.3.zip)
+You can download the current version here: [FeaLabel Version 1.0.4](https://github.com/quilombodigital/fealabel/releases/download/v1.0.4/fealabel-1.0.4.zip)
 
 ![fealabel-image](https://user-images.githubusercontent.com/874378/168492047-cb4f5f18-c243-4b21-9cf0-00e8a66be81e.png)
 
