@@ -179,7 +179,13 @@ namespace FeaLabel
             // 
             // topmarginField
             // 
+            this.topmarginField.DecimalPlaces = 1;
             this.topmarginField.Location = new System.Drawing.Point(123, 33);
+            this.topmarginField.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
             this.topmarginField.Name = "topmarginField";
             this.topmarginField.Size = new System.Drawing.Size(60, 20);
             this.topmarginField.TabIndex = 12;
@@ -192,7 +198,13 @@ namespace FeaLabel
             // 
             // leftmarginField
             // 
+            this.leftmarginField.DecimalPlaces = 1;
             this.leftmarginField.Location = new System.Drawing.Point(123, 59);
+            this.leftmarginField.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
             this.leftmarginField.Name = "leftmarginField";
             this.leftmarginField.Size = new System.Drawing.Size(60, 20);
             this.leftmarginField.TabIndex = 13;
@@ -205,7 +217,13 @@ namespace FeaLabel
             // 
             // labelWidthField
             // 
+            this.labelWidthField.DecimalPlaces = 1;
             this.labelWidthField.Location = new System.Drawing.Point(123, 86);
+            this.labelWidthField.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
             this.labelWidthField.Name = "labelWidthField";
             this.labelWidthField.Size = new System.Drawing.Size(60, 20);
             this.labelWidthField.TabIndex = 14;
@@ -218,7 +236,13 @@ namespace FeaLabel
             // 
             // labelheightField
             // 
+            this.labelheightField.DecimalPlaces = 1;
             this.labelheightField.Location = new System.Drawing.Point(123, 112);
+            this.labelheightField.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
             this.labelheightField.Name = "labelheightField";
             this.labelheightField.Size = new System.Drawing.Size(60, 20);
             this.labelheightField.TabIndex = 15;
@@ -231,7 +255,13 @@ namespace FeaLabel
             // 
             // columnsField
             // 
+            this.columnsField.DecimalPlaces = 1;
             this.columnsField.Location = new System.Drawing.Point(123, 138);
+            this.columnsField.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
             this.columnsField.Name = "columnsField";
             this.columnsField.Size = new System.Drawing.Size(60, 20);
             this.columnsField.TabIndex = 16;
@@ -244,7 +274,13 @@ namespace FeaLabel
             // 
             // rowsField
             // 
+            this.rowsField.DecimalPlaces = 1;
             this.rowsField.Location = new System.Drawing.Point(123, 164);
+            this.rowsField.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
             this.rowsField.Name = "rowsField";
             this.rowsField.Size = new System.Drawing.Size(60, 20);
             this.rowsField.TabIndex = 17;
@@ -257,15 +293,32 @@ namespace FeaLabel
             // 
             // verspaceField
             // 
+            this.verspaceField.DecimalPlaces = 1;
             this.verspaceField.Location = new System.Drawing.Point(123, 190);
+            this.verspaceField.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
             this.verspaceField.Name = "verspaceField";
             this.verspaceField.Size = new System.Drawing.Size(60, 20);
             this.verspaceField.TabIndex = 18;
+            this.verspaceField.Value = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
             this.verspaceField.ValueChanged += new System.EventHandler(this.verspaceField_ValueChanged);
             // 
             // horSpaceField
             // 
+            this.horSpaceField.DecimalPlaces = 1;
             this.horSpaceField.Location = new System.Drawing.Point(123, 216);
+            this.horSpaceField.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
             this.horSpaceField.Name = "horSpaceField";
             this.horSpaceField.Size = new System.Drawing.Size(60, 20);
             this.horSpaceField.TabIndex = 19;
@@ -359,7 +412,7 @@ namespace FeaLabel
             this.Controls.Add(this.barcodesField);
             this.Controls.Add(this.button1);
             this.Name = "FEALabelerForm";
-            this.Text = "FEA Label Generator 1.0.3";
+            this.Text = "FEA Label Generator 1.0.4";
             ((System.ComponentModel.ISupportInitialize)(this.topmarginField)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.leftmarginField)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.labelWidthField)).EndInit();
